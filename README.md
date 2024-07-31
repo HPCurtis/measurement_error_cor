@@ -4,13 +4,17 @@ The following project is a direct python conversion of an R/WinBUGS based exampl
 
 ## File structure
 - README.md 
-    - The file your reading rioght now.
+    - The file your reading right now.
 - Hierachial_correlation_measurement_error.stan
     - Jupyter notebook containing the python code for the analsysis of the dataset. 
 - stanfiles
     - measure_cor_error.stan: Stan file witht the code for the probalitic programme to generate measurement error model for correlation estiamtion udner measurement error.
 - vis 
-  -  estimates.png : PNG file of model estimates and shrinkage due to proper measurment error control.
+  - equations.png: PNG file of latex equatin for the measurement error model.
+  - estimates.png: PNG file of model estimates and shrinkage due to proper measurment error control.
+  - mu_trace_divergences.png: PNG file from the model presciption that generates divergeneces.
+  - sigma_trace_divergences.png PNG file from the model presciption that generates divergeneces.
+  - rho_ppc.png: PNG fro rho paramter that doesnt have divergences udner the model prescription.
 
 ## Stan
 [Stan](https://mc-stan.org/) is the state-of-the-art platform for statistical modeling and high-performance statistical computation pioneering many of the modern probabilstic modelling methods and tools that this example demosntrates. These include non-centered parametrisations, LKJ priors and the Algorithms shouting at you when something goes wrong (specificaly here model divergences) (McElreath, 2020).  
@@ -43,5 +47,3 @@ Jeffreys, H. (1961). The theory of probability. OUP Oxford.
 Matzke, D., Ly, A., Selker, R., Weeda, W. D., Scheibehenne, B., Lee, M. D., ... & Bouwmeester, S. (2017). Bayesian inference for correlations in the presence of measurement error and estimation uncertainty. Collabra: Psychology, 3(1).
 
 McElreath, R. (2020). Statistical rethinking: A Bayesian course with examples in R and Stan.Boca Raton: CRC Press.
-
-Saccenti, E., Hendriks, M. H., & Smilde, A. K. (2020). Corruption of the Pearson correlation coefficient by measurement error and its estimation, bias, and correction under different error models. Scientific reports, 10(1), 438.
