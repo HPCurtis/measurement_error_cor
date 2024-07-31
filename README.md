@@ -17,22 +17,7 @@ The following project is a direct python conversion of an R/WinBUGS based exampl
 
 ## Measurement error model
 
-$$
-\begin{align*}  
-
-\mu_\theta &\sim Normal(0, \sigma_\theta) 
-\\ \mu_\beta &\sim Normal(0, \sigma_\beta) 
-\\ \sigma_\theta &\sim Normal(0, b_{\sigma\theta}) 
-\\ \sigma_\beta &\sim Normal(0, b_{\sigma\beta}) 
-\\ \rho &\sim LKJ(1) 
-\\ \eta_i &\sim MVN\bigg((\mu_\theta, \mu_\beta), \begin{bmatrix} \sigma_\theta^2 &\rho\sigma_\theta\sigma_\beta 
-\\ \rho\sigma_\theta\sigma_\beta & \sigma_\beta^2 
-\\ \end{bmatrix}\bigg) 
-\\ \hat{\theta_i} &\sim Normal(\eta_{1i}, \sigma_{\epsilon\theta i}) 
-\\ \hat{\beta_i} &\sim Normal(\eta_{2i}, \sigma_{\epsilon\beta i})
-
-\end{align*}
-$$
+![equations](vis/equations.png)
 
 ## Posterior predictive checks
 
