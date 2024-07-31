@@ -1,8 +1,9 @@
 # Bayesian measurement error models for correlation estimation
 
-The following project is a direct conversion of an R/WinBUGS-JAGS based example of an advanced correlation measurement error model presented Behseta et al. (2009) and presented in probalbistic programming language by Matzke et al.(2017) allowing for my production in the more advanced and modern Stan probabilistic programming language (Carpenter et al. 2017).
+The following project is a direct python conversion of an R/WinBUGS based example of an advanced correlation measurement error model presented Behseta et al. (2009) and presented in probalbistic programming language by Matzke et al.(2017) allowing for my production of this model in the more advanced and modern Stan probabilistic programming language (Carpenter et al. 2017) based of their open source code and using thier simualted dataset provided at https://osf.io/mvz29/. 
 
 ## Plot reproduction
+![estimates](vis/estimates.png)
 
 # References
 
