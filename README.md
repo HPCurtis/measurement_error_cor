@@ -14,12 +14,12 @@ The following project is a direct python conversion of an R/WinBUGS based exampl
   - estimates.png: PNG file of model estimates and shrinkage due to proper measurment error control.
   - mu_trace_divergences.png: PNG file from the model presciption that generates divergeneces.
   - sigma_trace_divergences.png PNG file from the model presciption that generates divergeneces.
-  - rho_ppc.png: PNG fro rho paramter that doesnt have divergences udner the model prescription.
+  - rho_ppc.png: PNG fro rho parameter that doesnt have divergences udner the model prescription.
 
 ## Stan
 [Stan](https://mc-stan.org/) is the state-of-the-art platform for statistical modeling and high-performance statistical computation pioneering many of the modern probabilstic modelling methods and tools that this example demosntrates. These include non-centered parametrisations, LKJ priors and the Algorithms shouting at you when something goes wrong (specificaly here model divergences) (McElreath, 2020).  
 
-## Measurement error model
+## Measurement error model (Stanified)
 
 ![equations](vis/equations.png)
 
@@ -28,9 +28,9 @@ The following project is a direct python conversion of an R/WinBUGS based exampl
 ![sigma_div](vis/sigma_trace_divergences.png)
 ![mu_div](vis/mu_trace_divergences.png)
 ![rho](vis/rho_ppc.png)
-Fig 2: Postrior and trace plots for crtical model parameters
+Fig 2: Posterior and trace plots for crtical model parameters
 
-The plots for the sigma and mu parameter show the model under assumtions presenterd in teh equations above. Fitting this exact mdoel results in some divegences. An exercise for reader is to observe that increasing LKJ prior value $\geq$ 2 removes these divergences suggesting that with this data and compelxity of such a model some greater constraining of the parameters is needed for proper model fitting.
+The plots for the sigma and mu parameter show the model under assumtions presenterd in the equations above. Fitting this exact mdoel results in some divegences. An exercise for reader is to observe that increasing LKJ prior value $\geq$ 2 removes these divergences suggesting that with this data and compelxity of such a model some greater constraining of the parameters is needed for proper model fitting.
 
 ## Plot reproduction
 ![estimates](vis/estimates.png)
