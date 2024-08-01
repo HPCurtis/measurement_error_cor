@@ -21,7 +21,9 @@ This project is a Python adaptation of an advanced correlation measurement error
 
 ## Measurement error model (Stanified)
 
-![equations](vis/equations.png)
+<p align="center">
+  <img src="vis/equations.png" alt="estimates">
+</p>
 
 ## Posterior predictive checks
 
@@ -30,7 +32,7 @@ This project is a Python adaptation of an advanced correlation measurement error
 ![rho](vis/rho_ppc.png)
 Fig 2: Posterior and trace plots for crtical model parameters
 
-The plots for the sigma and mu parameter show the model under assumtions presenterd in the equations above. Fitting this exact mdoel results in some divegences. An exercise for reader is to observe that increasing LKJ prior value $\geq$ 2 removes these divergences suggesting that with this data and compelxity of such a model some greater constraining of the parameters is needed for proper model fitting.
+The plots for the sigma and mu parameters show the model under assumptions presented in the equations above. Fitting this exact model results in some divergences. An exercise for the reader is to observe that increasing the LKJ prior value to $\geq 2$ removes these divergences, suggesting that with this data and the complexity of such a model, some greater constraining of the parameters is needed for proper model fitting.
 
 ## Plot reproduction
 ![estimates](vis/estimates.png)
