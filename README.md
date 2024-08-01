@@ -41,6 +41,7 @@ Here is the corrected version of your text:
 
 Overall, the model achieves the goal of producing shrinkage such that what are labeled as the true estimates in Fig 1 are less uncertain with less variability, producing a much higher $\rho$ correlation coefficient when compared to standard Pearson correlation estimates from the observed data without measurement error considered.
 
+## Read on
 For further detailed description please read on to Jupyter notebook of the analysis.
 
 # References
