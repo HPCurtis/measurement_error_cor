@@ -1,6 +1,6 @@
 # Bayesian measurement error models for correlation estimation
 
-The following project is a direct python conversion of an R/WinBUGS based example of an advanced correlation measurement error model presented Behseta et al. (2009) and presented in said probabilistic programming language by Matzke et al.(2017) allowing for my production of this model in the more advanced and modern Stan probabilistic programming language (Carpenter et al. 2017) based of their open source code and using their simulated dataset provided at https://osf.io/mvz29/. 
+This project is a Python adaptation of an advanced correlation measurement error model originally developed  by Behseta et al. (2009) and later implemented in using R/WinBUGS by Matzke et al. (2017). Leveraging the open-source code and simulated dataset provided by Matzke et al. (available at OSF), this model has been recreated using the modern and advanced Stan probabilistic programming language (Carpenter et al. 2017).
 
 ## File structure
 - README.md 
@@ -17,7 +17,7 @@ The following project is a direct python conversion of an R/WinBUGS based exampl
   - rho_ppc.png: PNG fro rho parameter that doesnt have divergences udner the model prescription.
 
 ## Stan
-[Stan](https://mc-stan.org/) is the state-of-the-art platform for statistical modeling and high-performance statistical computation pioneering many of the modern probabilstic modelling methods and tools that this example demosntrates. These include non-centered parametrisations, LKJ priors and the Algorithms shouting at you when something goes wrong (specificaly here model divergences) (McElreath, 2020).  
+[Stan](https://mc-stan.org/) is the state-of-the-art platform for statistical modeling and high-performance statistical computation pioneering many of the modern probabilstic modelling methods and tools that this example demonstrates. These include non-centered parametrisations, LKJ priors and the Algorithms shouting at you when something goes wrong (specificaly here model divergences) (McElreath, 2020).  
 
 ## Measurement error model (Stanified)
 
@@ -35,6 +35,13 @@ The plots for the sigma and mu parameter show the model under assumtions present
 ## Plot reproduction
 ![estimates](vis/estimates.png)
 Fig 1.
+
+
+Here is the corrected version of your text:
+
+Overall, the model achieves the goal of producing shrinkage such that what are labeled as the true estimates in Fig 1 are less uncertain with less variability, producing a much higher $\rho$ correlation coefficient when compared to standard Pearson correlation estimates from the observed data without measurement error considered.
+
+For further detailed description please read on to Jupyter notebook of the analysis.
 
 # References
 
