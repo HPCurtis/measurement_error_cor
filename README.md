@@ -52,8 +52,6 @@ Behseta, S., Berdyyeva, T., Olson, C. R., & Kass, R. E. (2009). Bayesian correct
 
 Carpenter, B., Gelman, A., Hoffman, M. D., Lee, D., Goodrich, B., Betancourt, M., ... & Riddell, A. (2017). Stan: A probabilistic programming language. Journal of statistical software, 76.
 
-Jeffreys, H. (1961). The theory of probability. OUP Oxford.
-
 Matzke, D., Ly, A., Selker, R., Weeda, W. D., Scheibehenne, B., Lee, M. D., ... & Bouwmeester, S. (2017). Bayesian inference for correlations in the presence of measurement error and estimation uncertainty. Collabra: Psychology, 3(1).
 
 McElreath, R. (2020). Statistical rethinking: A Bayesian course with examples in R and Stan.Boca Raton: CRC Press.
