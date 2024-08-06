@@ -10,7 +10,7 @@ This project is a Python adaptation of an advanced correlation measurement error
 - stanfiles
     - measure_cor_error.stan: Stan file with the code for the probalitic programme to generate measurement error model for correlation estiamtion udner measurement error.
 - vis 
-  - equations.png: PNG file of latex equatin for the measurement error model.
+  - equations.png: PNG file of latex equation for the measurement error model.
   - estimates.png: PNG file of model estimates and shrinkage due to proper measurment error control.
   - mu_trace_divergences.png: PNG file from the model presciption that generates divergeneces.
   - sigma_trace_divergences.png PNG file from the model presciption that generates divergeneces.
