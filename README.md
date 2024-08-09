@@ -7,7 +7,7 @@ This project is a Python adaptation of an advanced correlation measurement error
     - The file your reading right now.
 - Hierachial_correlation_measurement_error.stan
     - Jupyter notebook containing the python code for the analsysis of the dataset. 
-- stanfiles
+- stan
     - measure_cor_error.stan: Stan file with the code for the probalitic programme to generate measurement error model for correlation estiamtion udner measurement error.
 - vis 
   - equations.png: PNG file of latex equation for the measurement error model.
