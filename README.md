@@ -8,13 +8,13 @@ This project is a Python adaptation of an advanced correlation measurement error
 - Hierachial_correlation_measurement_error.stan
     - Jupyter notebook containing the python code for the analsysis of the dataset. 
 - stan
-    - measure_cor_error.stan: Stan file with the code for the probalitic programme to generate measurement error model for correlation estiamtion udner measurement error.
+    - measure_cor_error.stan: Stan file with the code for the programme to generate measurement error model for correlation estimation under measurement error.
 - vis 
   - equations.png: PNG file of latex equation for the measurement error model.
   - estimates.png: PNG file of model estimates and shrinkage due to proper measurment error control.
   - mu_trace_divergences.png: PNG file from the model presciption that generates divergeneces.
   - sigma_trace_divergences.png PNG file from the model presciption that generates divergeneces.
-  - rho_ppc.png: PNG fro rho parameter that doesnt have divergences udner the model prescription.
+  - rho_ppc.png: PNG file for the rho parameter that doesn't have divergences udner the model prescription.
 
 ## Stan
 [Stan](https://mc-stan.org/) is the state-of-the-art platform for statistical modeling and high-performance statistical computation pioneering many of the modern probabilstic modelling methods and tools that this example demonstrates. These include non-centered parametrisations, LKJ priors and the Algorithms shouting at you when something goes wrong (specificaly here model divergences) (McElreath, 2020).  
