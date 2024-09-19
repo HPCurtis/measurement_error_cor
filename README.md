@@ -7,7 +7,7 @@ This project is a Python adaptation of an advanced correlation measurement error
     - The file your reading right now.
 - Hierachial_correlation_measurement_error.ipynb
     - Jupyter notebook containing the python code for the analsysis of the dataset.
--Hierachial_correlation_measurement_error.ipynb
+- Hierachial_correlation_measurement_error.ipynb
   - pdf form of ipython notebook.
 - stan
     - measure_cor_error.stan: Stan file with the code for the programme to generate measurement error model for correlation estimation under measurement error.
