@@ -1,12 +1,14 @@
 # Bayesian measurement error models for correlation estimation
 
-This project is a Python adaptation of an advanced correlation measurement error model originally developed  by Behseta et al. (2009) and later implemented in R/WinBUGS by Matzke et al. (2017). Leveraging the open-source code and simulated dataset provided by Matzke et al.        [available at OSF](https://osf.io/mvz29/), this model has been recreated using the modern and advanced Stan probabilistic programming language (Carpenter et al. 2017).
+This project is a Python adaptation of an advanced correlation measurement error model originally developed  by Behseta et al. (2009) and later implemented in R/WinBUGS by Matzke et al. (2017). Leveraging the open-source code and simulated dataset provided by Matzke et al.  [available at OSF](https://osf.io/mvz29/), this model has been recreated using the modern and advanced Stan probabilistic programming language (Carpenter et al. 2017).
 
 ## File structure
 - README.md 
     - The file your reading right now.
-- Hierachial_correlation_measurement_error.stan
-    - Jupyter notebook containing the python code for the analsysis of the dataset. 
+- Hierachial_correlation_measurement_error.ipynb
+    - Jupyter notebook containing the python code for the analsysis of the dataset.
+-Hierachial_correlation_measurement_error.ipynb
+  - pdf form of ipython notebook.
 - stan
     - measure_cor_error.stan: Stan file with the code for the programme to generate measurement error model for correlation estimation under measurement error.
 - vis 
